@@ -9,15 +9,18 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "@joaoguilher.me/core-ui": "*",
-    "@joaoguilher.me/tokens": "*",
     "@joaoguilher.me/eslint-config": "*",
-    "@joaoguilher.me/ts-config": "*"
+    "@joaoguilher.me/tokens": "*",
+    "@joaoguilher.me/ts-config": "*",
+    "@storybook/addon-a11y": "^7.5.3",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
