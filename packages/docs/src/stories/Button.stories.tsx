@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@joaoguilher.me/react'
+import { Button, ButtonProps } from '@joaoguilher.me/core-ui'
 
 export default {
   title: 'Form/Button',
