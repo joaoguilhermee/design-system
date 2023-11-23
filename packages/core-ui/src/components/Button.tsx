@@ -28,14 +28,18 @@ export const Button = styled('button', {
     cursor: 'not-allowed',
   },
 
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100',
+  },
+
   variants: {
     variant: {
       primary: {
         color: '$white',
-        background: '$brand500',
+        background: '$ignite500',
 
         '&:not(:disabled):hover': {
-          background: '$brand300',
+          background: '$ignite300',
         },
 
         '&:disabled': {
@@ -44,11 +48,11 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$brand300',
-        border: '2px solid $brand500',
+        color: '$ignite300',
+        border: '2px solid $ignite500',
 
         '&:not(:disabled):hover': {
-          background: '$brand500',
+          background: '$ignite500',
           color: '$white',
         },
 
@@ -91,4 +95,5 @@ export const Button = styled('button', {
 export interface ButtonProps extends ComponentProps<typeof Button> {
   as?: ElementType
 }
+
 Button.displayName = 'Button'
