@@ -8,6 +8,13 @@ const meta = {
     src: 'https://github.com/joaoguilhermee.png',
     alt: 'João Guilherme',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } satisfies Meta<AvatarProps>
 export default meta
 
