@@ -8,6 +8,9 @@ const meta = {
   args: {
     children: 'Send',
   },
+  argTypes: {
+    onClick: { action: 'clicked' },
+  },
 } satisfies Meta<ButtonProps>
 export default meta
 
