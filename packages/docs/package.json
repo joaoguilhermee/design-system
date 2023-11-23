@@ -17,7 +17,8 @@
     "react-dom": "^18.2.0",
     "@joaoguilher.me/react": "*",
     "@joaoguilher.me/tokens": "*",
-    "@joaoguilher.me/eslint-config": "*"
+    "@joaoguilher.me/eslint-config": "*",
+    "@joaoguilher.me/ts-config": "*"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
