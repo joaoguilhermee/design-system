@@ -12,8 +12,8 @@ export const colors = {
   gray800: '#202024',
   gray900: '#121214',
 
-  ignite300: '#00B37E',
-  ignite500: '#00875F',
-  ignite700: '#015F43',
-  ignite900: '#00291D',
-};
+  brand300: '#00B37E',
+  brand500: '#00875F',
+  brand700: '#015F43',
+  brand900: '#00291D',
+}
