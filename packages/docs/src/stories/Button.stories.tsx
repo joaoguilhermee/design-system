@@ -1,14 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@joaoguilher.me/core-ui'
 
-export default {
+const meta = {
   title: 'Form/Button',
   component: Button,
 
   args: {
     children: 'Enviar',
   },
-} as Meta<ButtonProps>
+} satisfies Meta<ButtonProps>
+export default meta
 
 export const Primary: StoryObj<ButtonProps> = {}
 

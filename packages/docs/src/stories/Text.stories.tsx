@@ -1,14 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Text, TextProps } from '@joaoguilher.me/core-ui'
 
-export default {
+const meta = {
   title: 'Typography/Text',
   component: Text,
   args: {
     children:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
   },
-} as Meta<TextProps>
+} satisfies Meta<TextProps>
+export default meta
 
 export const Primary: StoryObj<TextProps> = {}
 
