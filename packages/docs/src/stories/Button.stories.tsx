@@ -4,6 +4,7 @@ import { Button, ButtonProps } from '@joaoguilher.me/core-ui'
 export default {
   title: 'Form/Button',
   component: Button,
+
   args: {
     children: 'Enviar',
   },
