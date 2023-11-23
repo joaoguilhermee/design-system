@@ -1,19 +1,7 @@
 # @joaoguilher.me/ts-config
 
-## 3.0.0
+## 1.0.1
 
-### Major Changes
+### Patch Changes
 
-- Adding new color
-
-## 2.1.0
-
-### Minor Changes
-
-- Change colors name
-
-## 2.0.0
-
-### Major Changes
-
-- Adding the packages
+- Fixing version
